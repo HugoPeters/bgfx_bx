@@ -130,7 +130,7 @@ namespace bx
 		va_end(argList);
 	}
 
-#define DBG_ADDRESS "%" PRIxPTR
+#define DBG_ADDRESS "%lx"
 
 	void debugPrintfData(const void* _data, uint32_t _size, const char* _format, ...)
 	{
